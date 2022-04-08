@@ -1,12 +1,3 @@
-/* Assets:
-
-Font: Santio bold, Roboto, Tangerine
-
-
-Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
-
-/* PARALEXX SCROLLING */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tangerine:wght@400;700&display=swap');
 @font-face {
   font-family: 'Santio-bold';
@@ -226,7 +217,7 @@ footer section:last-of-type h3{
 
 }
 
-footer section:last-of-type a{
+footer section:last-of-type > a{
   display: inline-block;
   color: inherit;
   font-size: 3rem;
@@ -236,7 +227,7 @@ footer section:last-of-type a{
   margin: 15vh 0 30vh 0;
 }
 
-footer section:last-of-type a:hover{
+footer section:last-of-type > a:hover{
   box-shadow: 5px 5px 2px #efefef;
 }
 
@@ -245,7 +236,11 @@ footer section:last-of-type p{
   font-size: 1.6rem;
 }
 
-footer section:last-of-type p span{
+footer section:last-of-type p a{
   color:#6bc1a3;
+  text-decoration: none;
 }
 
+footer section:last-of-type p a:hover{
+  text-decoration: underline;
+}
