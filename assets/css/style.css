@@ -32,20 +32,13 @@ html {
   font-size: 62.5%;
 }
 
-.parallax {
-  background: center/cover no-repeat url('../img/cleo-topper.jpg') fixed;
-}
-
-img {
-  width: 5%;
-}
-
 /* ============================================================
                         FONTS
   ============================================================*/
 
 body{
   font-family: 'Santio-bold', sans-serif;
+  background: center/cover no-repeat url('../img/cleo-topper.jpg') fixed;
 }
 
 header nav ul li a,
@@ -89,10 +82,11 @@ header nav ul li a{
   font-weight: 600;
   letter-spacing: 2px;
   margin: 0 0 0 1vw;
+  border-bottom: 1px solid #e7bc0e;
 }
 
 header nav ul li a:hover {
-  border-bottom: 1px solid #e7bc0e;
+  text-shadow: 1px 1px 1px #e7bc0e;
 }
 
 
@@ -112,6 +106,7 @@ header article h1:last-of-type {
 
 header article p {
   color: #e7bc0e;
+  letter-spacing: -2.5px;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -129,26 +124,30 @@ header article p {
   /* GENERAL STYLINGS */
 
 .big_paragraph {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 6rem;
 }
 
 .big_paragraph span {
-  background: #000;
-  color: white;
-  padding: 7px 5px;
+  background: #29272A;
+  color: #efefef;
+  padding: 5px 7px;
 }
 
 /* DIFFERENT STYLINGS */
 
 main section:first-of-type .big_paragraph {
   color: #6bc1a3;
-  padding: 30vh 15% 20vh 15%;
+  padding: 30vh 35% 20vh 15%;
 }
 
-main section:last-of-type .big_paragraph {
+main section:first-of-type .big_paragraph span{
+  margin-right: -5px;
+}
+
+main section:nth-of-type(5) .big_paragraph {
   color: #7eb8e1;
-  padding: 10vh 10% 20vh 25%;
+  padding: 30vh 10% 50vh 25%;
 }
 /* ============================================================
                   STYLING SECTION STATS 
@@ -175,8 +174,9 @@ main section:last-of-type .big_paragraph {
 }
 
 .section_stats span {
-  background-color: #000;
+  background-color: #29272A;
   color: #fff;
+  padding: 5px 2.5px;
 }
 
 /* DIFFERENT STYLINGS */
@@ -196,3 +196,56 @@ main section:last-of-type .big_paragraph {
 /* ============================================================
                         FOOTER STYLINGS
   ============================================================*/
+
+/* BEACH IMAGE PAGE */
+
+footer {
+  background: #efefef;
+}
+
+footer section:first-of-type {
+  background: bottom/contain no-repeat url('../img/see.png');
+  padding: 25vh 0 0 0;
+}
+
+footer section:first-of-type img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* DONATE PAGE */
+footer section:last-of-type {
+  background-color: #000;
+  color: #fff;
+  padding: 50vh 10% 5vh 10%;
+}
+
+footer section:last-of-type h3{
+  font-size: 8rem;
+  line-height: 10rem;
+
+}
+
+footer section:last-of-type a{
+  display: inline-block;
+  color: inherit;
+  font-size: 3rem;
+  padding: 2.0vh 5%;
+  border: solid 2px #fff;
+  text-decoration: none;
+  margin: 15vh 0 30vh 0;
+}
+
+footer section:last-of-type a:hover{
+  box-shadow: 5px 5px 2px #efefef;
+}
+
+footer section:last-of-type p{
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+footer section:last-of-type p span{
+  color:#6bc1a3;
+}
+
