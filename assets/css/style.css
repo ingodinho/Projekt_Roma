@@ -4,11 +4,6 @@
   src: url('../fonts/Santio\ Bold.otf');
 }
 
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Tangerine', cursive;
-font-family: 'Santio-bold', sans-serif;
-*/
-
 /* ============================================================
                         GENERAL STYLING
   ============================================================*/
@@ -24,12 +19,13 @@ html {
 }
 
 /* ============================================================
-                        FONTS
+                        FONTS/BACKGROUND
   ============================================================*/
 
 body{
   font-family: 'Santio-bold', sans-serif;
-  background: center/cover no-repeat url('../img/cleo-topper.jpg') fixed;
+  background: center/cover no-repeat rgba(0, 0, 0, 0.601) url('../img/cleo-topper.jpg') fixed;
+  background-blend-mode: multiply;
 }
 
 header nav ul li a,
@@ -122,7 +118,7 @@ header article p {
 .big_paragraph span {
   background: #29272A;
   color: #efefef;
-  padding: 5px 7px;
+  padding: 2px 7px;
 }
 
 /* DIFFERENT STYLINGS */
@@ -167,7 +163,7 @@ main section:nth-of-type(5) .big_paragraph {
 .section_stats span {
   background-color: #29272A;
   color: #fff;
-  padding: 5px 2.5px;
+  padding: 1px 2.5px;
 }
 
 /* DIFFERENT STYLINGS */
@@ -205,6 +201,7 @@ footer section:first-of-type img{
 }
 
 /* DONATE PAGE */
+
 footer section:last-of-type {
   background-color: #000;
   color: #fff;
