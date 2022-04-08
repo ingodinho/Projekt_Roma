@@ -1,0 +1,198 @@
+/* Assets:
+
+Font: Santio bold, Roboto, Tangerine
+
+
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+/* PARALEXX SCROLLING */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tangerine:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Santio-bold';
+  src: url('../fonts/Santio\ Bold.otf');
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Santio-bold', sans-serif;
+*/
+
+/* ============================================================
+                        GENERAL STYLING
+  ============================================================*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.parallax {
+  background: center/cover no-repeat url('../img/cleo-topper.jpg') fixed;
+}
+
+img {
+  width: 5%;
+}
+
+/* ============================================================
+                        FONTS
+  ============================================================*/
+
+body{
+  font-family: 'Santio-bold', sans-serif;
+}
+
+header nav ul li a,
+footer a,
+footer p:last-child {
+  font-family: 'Roboto', sans-serif;
+}
+
+header p:last-child {
+  font-family: 'Tangerine', cursive;
+}
+
+
+/* ============================================================
+                        HEADER
+  ============================================================*/
+
+header {
+  color: #efefef;
+}
+
+/* =============NAVBAR=========== */
+header nav ul {
+  list-style: none;
+  text-align: right;
+  padding: 2vh 10vw 2vh 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li img {
+  width: 8%;
+}
+
+header nav ul li a{
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 0 1vw;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1px solid #e7bc0e;
+}
+
+
+/* ==========CONTENT============= */
+
+header article {
+  padding: 20vh 0 10vh 10vw;
+}
+
+header article h1 {
+  font-size: 7rem;
+}
+
+header article h1:last-of-type {
+  margin: 0 0 10vh 0;
+}
+
+header article p {
+  color: #e7bc0e;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.la-angle-down {
+  font-size: 3rem;
+  vertical-align: -5px;
+}
+
+
+/* ============================================================
+                        MAIN BIG PARAGRAPH STYLINGS
+  ============================================================*/
+
+  /* GENERAL STYLINGS */
+
+.big_paragraph {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+.big_paragraph span {
+  background: #000;
+  color: white;
+  padding: 7px 5px;
+}
+
+/* DIFFERENT STYLINGS */
+
+main section:first-of-type .big_paragraph {
+  color: #6bc1a3;
+  padding: 30vh 15% 20vh 15%;
+}
+
+main section:last-of-type .big_paragraph {
+  color: #7eb8e1;
+  padding: 10vh 10% 20vh 25%;
+}
+/* ============================================================
+                  STYLING SECTION STATS 
+  ============================================================*/
+
+/* GENERAL STYLINGS */
+
+.section_stats {
+  padding: 30vh 10% 20vh 10%;
+}
+
+.section_stats img {
+  display: inline-block;
+  margin-bottom: 10vh;
+  width: 20%;
+}
+
+.section_stats h2 {
+  font-size: 20rem;
+}
+
+.section_stats p {
+  font-size: 6rem;
+}
+
+.section_stats span {
+  background-color: #000;
+  color: #fff;
+}
+
+/* DIFFERENT STYLINGS */
+
+.section_stats-worker {
+  color: #e7bc0e;
+}
+
+.section_stats-pay {
+  color: #cb91b6;
+}
+
+.section_stats-health {
+  color: #6bc1a3;
+}
+
+/* ============================================================
+                        FOOTER STYLINGS
+  ============================================================*/
