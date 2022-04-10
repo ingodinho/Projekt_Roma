@@ -51,7 +51,7 @@ header {
 header nav ul {
   list-style: none;
   text-align: right;
-  padding: 2vh 10vw 2vh 0;
+  padding: 2vh 10% 2vh 0;
 }
 
 header nav ul li {
@@ -60,6 +60,8 @@ header nav ul li {
 
 header nav ul li img {
   width: 8%;
+  margin: 0 5% 0 0;
+  vertical-align: bottom;
 }
 
 header nav ul li a{
@@ -68,19 +70,19 @@ header nav ul li a{
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 2px;
-  margin: 0 0 0 1vw;
   border-bottom: 1px solid #e7bc0e;
+  vertical-align: bottom;
 }
 
 header nav ul li a:hover {
-  text-shadow: 1px 1px 1px #e7bc0e;
+  border-bottom: 2px solid #e7bc0e;
 }
 
 
 /* ==========CONTENT============= */
 
 header article {
-  padding: 20vh 0 10vh 10vw;
+  padding: 20vh 0 10vh 10%;
 }
 
 header article h1 {
@@ -97,6 +99,7 @@ header article p {
   font-size: 4rem;
   font-weight: 700;
 }
+
 
 .la-angle-down {
   font-size: 3rem;
@@ -125,7 +128,7 @@ header article p {
 
 main section:first-of-type .big_paragraph {
   color: #6bc1a3;
-  padding: 30vh 35% 20vh 15%;
+  padding: 30vh 35% 50vh 15%;
 }
 
 main section:first-of-type .big_paragraph span{
@@ -134,7 +137,7 @@ main section:first-of-type .big_paragraph span{
 
 main section:nth-of-type(5) .big_paragraph {
   color: #7eb8e1;
-  padding: 30vh 10% 50vh 25%;
+  padding: 30vh 10% 30vh 25%;
 }
 /* ============================================================
                   STYLING SECTION STATS 
@@ -143,21 +146,21 @@ main section:nth-of-type(5) .big_paragraph {
 /* GENERAL STYLINGS */
 
 .section_stats {
-  padding: 30vh 10% 20vh 10%;
+  padding: 15vh 10%;
 }
 
 .section_stats img {
   display: inline-block;
-  margin-bottom: 10vh;
-  width: 20%;
+  margin-bottom: 15vh;
+  width: 15%;
 }
 
 .section_stats h2 {
-  font-size: 20rem;
+  font-size: 16rem;
 }
 
 .section_stats p {
-  font-size: 6rem;
+  font-size: 4.5rem;
 }
 
 .section_stats span {
@@ -192,7 +195,6 @@ footer {
 
 footer section:first-of-type {
   background: bottom/contain no-repeat url('../img/see.png');
-  padding: 25vh 0 0 0;
 }
 
 footer section:first-of-type img{
@@ -218,10 +220,10 @@ footer section:last-of-type > a{
   display: inline-block;
   color: inherit;
   font-size: 3rem;
-  padding: 2.0vh 5%;
-  border: solid 2px #fff;
   text-decoration: none;
+  padding: 2.0vh 5%;
   margin: 15vh 0 30vh 0;
+  border: solid 2px #fff;
 }
 
 footer section:last-of-type > a:hover{
