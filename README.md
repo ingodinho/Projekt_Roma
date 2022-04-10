@@ -2,6 +2,8 @@
 
 Projekt_Roma:
 
+In diesem Projekt haben wir eine Seite gebaut, die sich an dem Film Roma orientiert.
+
 Verwendete Technologien:
 HTML/CSS
 
